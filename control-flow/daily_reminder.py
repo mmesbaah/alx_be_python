@@ -13,5 +13,5 @@ match priority:
         
 if time_bound == "yes":
     reminder += " that requires immediate attention today!"
-print("\nReminder:", reminder)
+print(reminder)
 
