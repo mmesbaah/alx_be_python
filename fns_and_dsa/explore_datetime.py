@@ -1,7 +1,7 @@
 from datetime import datetime, timedelta
 def display_current_datetime():
     current_date = datetime.now()
-    formatted_date = current_date.strftime("%y-%m-%d-%H:%M:%S")
+    formatted_date = current_date.strftime["%y-%m-%d %H:%M:%S"]
     print(f"current date and time: {formatted_date}")
 def calculate_future_date():
     try:
