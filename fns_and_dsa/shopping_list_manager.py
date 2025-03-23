@@ -1,3 +1,4 @@
+shopping_list = []
 def display_menu():
     print("\nShopping list manager")
     print("1. add item")
