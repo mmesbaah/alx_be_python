@@ -12,7 +12,7 @@ class BankAccount:
     def withdraw(self, amount):
         """withdraw the specified amount if sufficient funds exist. Returns True if successful, False otherwise."""
         if 0 < amount <= self.acount_balance:
-            self.acount_balance -= amount 
+            self.account_balance -= amount 
             return True
         return False
     def display_balance(self):
