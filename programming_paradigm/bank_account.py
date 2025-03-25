@@ -1,7 +1,7 @@
 class BankAccount:
     def __init__(self, initial_balance=0):
         """Initialize the account with an optional initial balance (default is 0)."""
-        self.account_balance = initial balance
+        self.account_balance = initial_balance
 
     def deposit(self, amount):
         """deposit the specified amount into the account."""
