@@ -5,12 +5,11 @@ def safe_divide(numerator, denominator):
 
         if denom == 0:
             return ["Error: Cannot divide by zero."]
-        return f"the result of the division is {num / denom}"
+        return f"the result of the division is {num / denom:.1f}"
     except ValueError:
         return ["Error: Please enter numeric values only."]
 
 import sys
-from robust_division_calculator import safe_divide
 
 def main():
     if len(sys.argv) != 3:
